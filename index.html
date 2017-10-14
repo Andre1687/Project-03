@@ -4,22 +4,23 @@
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <title>The Code Review</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
 
-    <header>
-       <h1>The Code Review</h1>
-    </header>
-
-    <form action="" method="post">
-
-      <h2>Signup for our newsletter</h2>
+   <header>The Code Review</header>
+    <div id="title">
+      <h1>Signup for our newsletter</h1>
       <p>Get the latest news on how your code is doing right in your inbox</p>
+    </div>
 
-      <fieldset>
-        <div class="Flex1">
+    <form action="index.html" method="post">
+
+
+        <fieldset>
+         <div class="Flex1">
           <legend>Contact Information</legend>
           <br>
 
@@ -58,8 +59,9 @@
               <input type="text" id="zip" name="user_zip">
             </div>
 
-          </div>
-      </fieldset>
+           </div>
+         </fieldset>
+
 
   <br>
 
@@ -80,23 +82,27 @@
 
           <p>Newsletter format</p>
 
-          <input type="radio">
-          <label>HTML</label>
+          <input type="radio" id="html" value="html" name="radio">
+          <label for="html" class="">HTML</label>
           <br>
 
-          <input type="radio">
-          <label>Plain text</label>
+          <input type="radio" id="plain-text" value="plain-text" name="radio">
+          <label for="plain-text" class="">Plain text</label>
           <br>
           <br>
 
           <label>Other topics you'd like to hear about</label>
           <br>
+          <br>
           <textarea></textarea>
           <br>
-
+          <br>
+          
 
 
            <button type="submit">Sign Up</button>
+
+           <p id="copyright">Copyright The Code Review</p>
 
 
         </div>

@@ -3,22 +3,69 @@
 }
 
 body {
-  font-family: 'Merriweather', serif;;
+  font-family: 'Merriweather', serif;
 }
 
-h1 {
-  color: blue;
+header {
+  color: #fff;
+  background-color: #142840;
   text-transform: uppercase;
+  font-size: 20px;
+  padding: 35px 0 30px 0;
+  height: 100px;
+  text-align: center;
+}
+
+#title {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  border-bottom: 4px solid black;
+  margin: 0 10px 0 10px;
+}
+
+/* ---------- Seperation ---------- */
+
+h1 {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+p,
+label {
+  color: grey;
+  font-size: 15px;
+}
+
+p {
+  padding: 0 5px 0 5px;
+}
+
+form {
+  padding: 2px 0 0 0;
 }
 
 fieldset {
-  border: 0;
+  border: none;
+  border-top: 2px solid black;
+  margin: 0 10px 0 10px;
+  padding: 25px 0 5px 0;
+}
+
+button {
+
+}
+
+#copyright {
+
 }
 
 
 
 @media (min-width: 768px) {
 
-
+ body {
+  background-color: green;
+}
 
 }
