@@ -8,106 +8,167 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
   </head>
+
+
+
   <body>
+    <header>The Code Review</header>
 
-   <header>The Code Review</header>
-    <div id="title">
-      <h1>Signup for our newsletter</h1>
-      <p>Get the latest news on how your code is doing right in your inbox</p>
-    </div>
+    <div id="container1">
+      <div id="title">
+        <h1>Signup for our newsletter</h1>
+        <p>Get the latest news on how your code is doing right in your inbox</p>
+      </div>
 
-    <form action="index.html" method="post">
-
-
+      <form action="index.html" method="post">
         <fieldset>
-         <div class="Flex1">
-          <legend>Contact Information</legend>
-          <br>
+          <div id="container2">
+            <legend>Contact Information</legend>
+              <br>
 
-            <div>
-              <label for="name">Full Name</label>
-              <input type="text" id="name" name="user_name">
-            </div>
+                <div id="flex">
+                  <div class="row">
+                    <label for="Full_Name">Full Name</label>
+                    <input type="text" id="Full_Name" name="user_name" placeholder="Required">
+                  </div>
 
-            <div>
-              <label for="mail">Email Adress</label>
-              <input type="email" id="mail" name="user_email">
-            </div>
+                  <div class="row">
+                    <label for="Email_Adress">Email Adress</label>
+                    <input type="email" id="Email_Adress" name="user_email" placeholder="Required">
+                  </div>
 
-            <div>
-              <label for="phone">Phone Number</label>
-              <input type="tel" id="phone" name="user_phone">
-            </div>
+                  <div class="row">
+                    <label for="Phone_Number">Phone Number</label>
+                    <input type="tel" id="Phone_Number" name="user_phone">
+                  </div>
 
-            <div>
-              <label for="street">Street Adress</label>
-              <input type="text" id="street" name="user_street">
-            </div>
+                  <div class="row">
+                    <label for="Street_Adress">Street Adress</label>
+                    <input type="text" id="Street_Adress" name="user_street">
+                  </div>
 
-            <div>
-              <label for="city">City</label>
-              <input type="text" id="city" name="user_city">
-            </div>
+                  <div class="row">
+                    <label for="City">City</label>
+                    <input type="text" id="City" name="user_city">
+                  </div>
 
-            <div>
-              <label for="state">State</label>
-              <input type="" id="state" name="user_state">
-            </div>
+                  <div class="row">
+                    <label for="State">State</label>
+                    <select id="State" name="user_state">
+                      <option>Choose State</option>
+                      <option value="AL">AL</option>
+                    	<option value="AK">AK</option>
+                    	<option value="AZ">AZ</option>
+                    	<option value="AR">AR</option>
+                    	<option value="CA">CA</option>
+                    	<option value="CO">CO</option>
+                    	<option value="CT">CT</option>
+                    	<option value="DE">DE</option>
+                    	<option value="DC">DC</option>
+                    	<option value="FL">FL</option>
+                    	<option value="GA">GA</option>
+                    	<option value="HI">HI</option>
+                    	<option value="ID">ID</option>
+                    	<option value="IL">IL</option>
+                    	<option value="IN">IN</option>
+                    	<option value="IA">IA</option>
+                    	<option value="KS">KS</option>
+                    	<option value="KY">KY</option>
+                    	<option value="LA">LA</option>
+                    	<option value="ME">ME</option>
+                    	<option value="MD">MD</option>
+                    	<option value="MA">MA</option>
+                    	<option value="MI">MI</option>
+                    	<option value="MN">MN</option>
+                    	<option value="MS">MS</option>
+                    	<option value="MO">MO</option>
+                    	<option value="MT">MT</option>
+                    	<option value="NE">NE</option>
+                    	<option value="NV">NV</option>
+                    	<option value="NH">NH</option>
+                    	<option value="NJ">NJ</option>
+                    	<option value="NM">NM</option>
+                    	<option value="NY">NY</option>
+                    	<option value="NC">NC</option>
+                    	<option value="ND">ND</option>
+                    	<option value="OH">OH</option>
+                    	<option value="OK">OK</option>
+                    	<option value="OR">OR</option>
+                    	<option value="PA">PA</option>
+                    	<option value="RI">RI</option>
+                    	<option value="SC">SC</option>
+                    	<option value="SD">SD</option>
+                    	<option value="TN">TN</option>
+                    	<option value="TX">TX</option>
+                    	<option value="UT">UT</option>
+                    	<option value="VT">VT</option>
+                    	<option value="VA">VA</option>
+                    	<option value="WA">WA</option>
+                    	<option value="WV">WV</option>
+                    	<option value="WI">WI</option>
+                    	<option value="WY">WY</option>
+                      <option value="AS">AS</option>
+                      <option value="GU">GU</option>
+                      <option value="PR">PR</option>
+                      <option value="UM">UM</option>
+                      <option value="VI">VI</option>
+                    </select>
+                  </div>
 
-            <div>
-              <label for="zip">Zip Code</label>
-              <input type="text" id="zip" name="user_zip">
-            </div>
+                  <div class="row">
+                    <label for="Zip_Code">Zip Code</label>
+                    <input type="text" id="Zip_Code" name="user_zip">
+                  </div>
+                </div>
 
-           </div>
-         </fieldset>
+          </div>
+        </fieldset>
+      <br>
+        <fieldset>
+          <div id="container3">
+            <legend>Newsletter</legend>
 
+              <p>Select the newsletter you would like to recieve</p>
 
-  <br>
+                <input type="checkbox" id="HTML_News" value="HTML_News" name="checkbox">
+                <label for="HTML_News">HTML News</label>
+                  <br>
+                  <br>
+                <input type="checkbox" id="CSS_News" value="CSS_News" name="checkbox">
+                <label for="CSS_News">CSS News</label>
+                  <br>
+                  <br>
+                <input type="checkbox" id="Javascript_News" value="Javascript_News" name="checkbox">
+                <label for="Javascript_News">Javascript News</label>
+                  <br>
+                  <br>
 
-      <fieldset>
-        <div class="flex2">
-          <legend>Newsletter</legend>
-          <p>Select the newsletter you would like to recieve</p>
+              <p>Newsletter format</p>
 
-          <input type="checkbox" id="">
-          <label>HTML News</label>
-          <br>
-          <input type="checkbox" id="">
-          <label>CSS News</label>
-          <br>
-          <input type="checkbox" id="">
-          <label>Javascript News</label>
-          <br>
+                <input type="radio" id="HTML" value="html" name="radio">
+                <label for="HTML" class="">HTML</label>
+                  <br>
+                  <br>
 
-          <p>Newsletter format</p>
+                <input type="radio" id="Plain_text" value="plain_text" name="radio">
+                <label for="Plain_text" class="">Plain text</label>
+                  <br>
+                  <br>
+                  <br>
 
-          <input type="radio" id="html" value="html" name="radio">
-          <label for="html" class="">HTML</label>
-          <br>
+              <label>Other topics you'd like to hear about</label>
+                  <br>
+                  <br>
+                <textarea id="Text">
+                </textarea>
+                  <br>
+                  <br>
 
-          <input type="radio" id="plain-text" value="plain-text" name="radio">
-          <label for="plain-text" class="">Plain text</label>
-          <br>
-          <br>
-
-          <label>Other topics you'd like to hear about</label>
-          <br>
-          <br>
-          <textarea></textarea>
-          <br>
-          <br>
-          
-
-
-           <button type="submit">Sign Up</button>
-
-           <p id="copyright">Copyright The Code Review</p>
-
-
-        </div>
-      </fieldset>
-
-    </form>
+              <button type="submit">Sign Up</button>
+            <p id="copyright">Copyright The Code Review</p>
+          </div>
+        </fieldset>
+      </form>
+    </div>
   </body>
 </html>
