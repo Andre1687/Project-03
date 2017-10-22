@@ -75,10 +75,6 @@ input[type=text] {
   border-radius: 4px;
 }
 
-input[] {
-  width: 50%;
-}
-
 input[type=email] {
   width: 100%;
   margin: 20px 0;
@@ -99,7 +95,6 @@ input[type=tel] {
 
 select {
   width: 100%;
-  appearance: none;
   margin: 20px 0;
   padding: 10px 50px 10px 10px;
   background-color: #EBEBEB;
@@ -128,15 +123,9 @@ textarea {
 
 /* ---------- PLACEHOLDER START ---------- */
 
-input::placeholder {
+input:placeholder {
   color: grey;
-  opacity: 75%;
   text-decoration: line-through;
-}
-
-#state {
-  opacity: 100%;
-  color: grey;
 }
 
 /* ---------- PLACEHOLDER ENDD ---------- */
