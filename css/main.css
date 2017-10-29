@@ -6,6 +6,12 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+.clearfix {
+    content:'';
+    display: block;
+    clear: both;
+}
+
 header {
   color: #fff;
   background-color: #142840;
@@ -64,6 +70,8 @@ fieldset {
 legend {
   font-size: 18px;
   font-weight: bolder;
+  float: left;
+  width: 100%;
 }
 
 input[type=text] {
@@ -98,8 +106,13 @@ select {
   margin: 20px 0;
   padding: 10px 50px 10px 10px;
   background-color: #EBEBEB;
+  color: #9EA1A4;
   border: none;
   border-radius: 4px;
+}
+
+#Zip_Code {
+  width: 50%;
 }
 
 input[type=checkbox] {
@@ -123,9 +136,11 @@ textarea {
 
 /* ---------- PLACEHOLDER START ---------- */
 
-input:placeholder {
+input::placeholder {
   color: grey;
-  text-decoration: line-through;
+  opacity: 0.4;
+  text-align: right;
+  font-style: italic;
 }
 
 /* ---------- PLACEHOLDER ENDD ---------- */
@@ -178,23 +193,12 @@ button {
 
 @media (min-width: 768px) {
 
-  #flex {
+  .row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
   }
 
 
 
 }
-
-
-
-/*edit the placeholders*/
-
-/*make zip code box 50%*/
-
-/*Edit the state arrows*/
-
-/*Find out what is the textfield type*/
-
-/*Flexbox*/
